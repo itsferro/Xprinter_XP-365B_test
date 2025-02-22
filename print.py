@@ -3,6 +3,8 @@ import win32print
 
 
 printer_name = win32print.GetDefaultPrinter()
+print(type(printer_name))
+print(printer_name)
 """
 printer_name = win32print.GetPrinterDriverDirectory()
 print(type(printer_name))
